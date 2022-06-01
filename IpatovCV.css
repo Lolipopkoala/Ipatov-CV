@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&display=swap');
+
+.avatar{
+    width: 221px;
+    border-radius: 10px 300px / 300px;;
+    padding: 0px;
+    box-shadow: 4px 4px 14px rgba(196, 196, 196, 0.35);
+}
+
+body {
+    width: 900px;
+    left: 0px;
+    right: 0px;
+    margin: 20px auto;
+    background: linear-gradient(270deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+/* 
+@media (max-width: 700px) {
+    .body{
+        text-align: center;
+        display:block;
+    }
+}
+
+@media (max-width: 700px) {
+    .left-body{
+        text-align: center;
+        display:block;
+    }
+}
+
+@media (max-width: 700px) {
+    .right-body{
+        text-align: center;
+        display:block;
+    }
+} */
+
+
+.left-body{
+padding:20px;
+width: 300px;
+display: inline-block;
+
+background-color: rgba(196, 196, 196, 0.35);
+font-size: 20px;
+font-family: inherit;
+border-radius: 25px;
+line-height: 5px;
+color: aliceblue;
+text-align: center;
+}
+
+.rigth-body {
+display:inline-block;
+padding: 20px;
+width: 500px;
+
+background-color: white;
+font-size: 20px;
+font-family: inherit;
+border-radius: 25px;
+line-height: 5px;
+color: black;
+text-align:left;
+}
+
+.left-body p {
+    text-align: left;
+}
+
+.info img,
+.img a {
+    margin: 10px;
+    border: 10px;
+    background-color: rgba(196, 196, 196, 0.35);
+    width: 45px;
+    color: aliceblue;
+    border-radius: 60px;
+}
+
+.h3 {
+    font-size: 25px;
+    text-align: center;
+}
+.Industry {
+    color: aliceblue;
+    margin: 10px;
+    text-align: left;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;
+    background-color: rgba(196, 196, 196, 0.35);
+    border-radius: 20px;
+}
+
+.lang {
+    color: aliceblue;
+    margin: 10px;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 15px;
+    background-color: rgba(196, 196, 196, 0.35);
+    border-radius: 20px;
+    text-align: left;
+}
+
+.lang ul {
+    list-style: none;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+
+    display: inline-block;
+  }
+  .dot_w {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .hobbies img {
+    margin: 10px;
+    background-color: rgba(196, 196, 196, 0.35);
+    border-radius: 20px;
+    width: 50px;
+  }
+    
+    /* .exp {
+    
+    } */
+
+    .exp-2 {
+        font-family: inherit;
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .exp-2 dt {
+        font-style: bold;
+        font-weight: 700;
+    }
+
+    .exp-2 dd {
+        color: #73808D;
+    }
+
+    /* .exp-dt-style dt {
+         margin-bottom: 10px;
+         padding-bottom: 5px;
+    } */
+
+    .h3-r{
+        background-color: black;
+          border-radius: 40px;
+          width: 100px;
+          padding: 25px;
+          color: azure;
+          text-align:center;
+          font-size: 20px;
+    }
+    .img-skill{
+        width: 90px;
+    }
